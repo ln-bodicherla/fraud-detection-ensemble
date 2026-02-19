@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
+data/
+*.csv
+*.parquet
+*.h5
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.cbm
+*.bin
+
+# Reports and outputs
+reports/
+outputs/
+*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optuna
+optuna_*.db
+
+# Environment variables
+.env
+.env.local
