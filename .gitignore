@@ -1,58 +1,75 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-*.egg
-dist/
-build/
-
-# Virtual environments
-venv/
-env/
-.env/
-.venv/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Data
-data/
-*.csv
-*.parquet
-*.h5
-
-# Model artifacts
-models/
-*.pkl
-*.joblib
-*.cbm
-*.bin
-
-# Reports and outputs
-reports/
-outputs/
-*.html
-
-# OS
+!.env.example
+!.env.sample
+.build/
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Optuna
-optuna_*.db
-
-# Environment variables
+.eggs/
 .env
+.env.*
 .env.local
+.env/
+.idea/
+.ipynb_checkpoints/
+.swiftpm/
+.venv/
+.vscode/
+*.app
+*.bin
+*.cbm
+*.csv
+*.db
+*.db-shm
+*.db-wal
+*.egg
+*.egg-info/
+*.h5
+*.html
+*.ipa
+*.joblib
+*.key
+*.log
+*.parquet
+*.pem
+*.pkl
+*.py[cod]
+*.pyc
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
+# Data
+# Databases
+# Dependencies
+# Environment variables
+# IDE
+# Jupyter
+# Logs
+# Model artifacts
+# Optuna
+# OS
+# Python
+# Reports and outputs
+# Secrets
+# Virtual environments
+build/
+credentials*
+data/
+DerivedData/
+dist/
+env/
+logs/
+models/
+node_modules/
+optuna_*.db
+outputs/
+reports/
+Thumbs.db
+venv/
